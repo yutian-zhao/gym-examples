@@ -2,3 +2,7 @@ from gym_examples.wrappers.clip_reward import ClipReward
 from gym_examples.wrappers.discrete_actions import DiscreteActions
 from gym_examples.wrappers.reacher_weighted_reward import ReacherRewardWrapper
 from gym_examples.wrappers.relative_position import RelativePosition
+from gym_examples.wrappers.full_frame import FullFrame
+from gym_examples.wrappers.agent_location import AgentLocation
+from gym_examples.wrappers.one_hot import OneHot
+from gym_examples.wrappers.upside_wrapper import UpsideWrapper
