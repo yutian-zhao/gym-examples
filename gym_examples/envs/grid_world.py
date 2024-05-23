@@ -57,6 +57,10 @@ class GridWorldEnv(gym.Env):
                 self._agent_location - self._target_location, ord=1
             )
         }
+    
+    @property
+    def obs(self): 
+        return self._agent_location 
 
     def reset(self, seed=None, options=None):
         # We need the following line to seed self.np_random
